@@ -2,7 +2,7 @@
 
 ## 1. Commits and Releases
 - Make focused, reviewable commits after appropriate verification; avoid committing unrelated user changes.
-- Push verified work to a feature branch and open a pull request for review, unless the user requests another workflow.
+- Push verified work directly to the default branch by default. Use a feature branch or pull request when requested or when separate review is warranted.
 - Reserve version tags and GitHub releases for major, stable release milestones.
 
 ## 2. Standardized Release Assets
