@@ -1,8 +1,9 @@
 # Agent Guidelines & Workflow Rules
 
-## 1. Stable Release Checkpointing
-- Do not commit, tag, push, or create releases on every incremental edit.
-- **Only** execute the formal release workflow (git commit, semantic version tag, push to GitHub, and GitHub release) when reaching major, stable release milestones.
+## 1. Commits and Releases
+- Make focused, reviewable commits after appropriate verification; avoid committing unrelated user changes.
+- Push verified work to a feature branch and open a pull request for review, unless the user requests another workflow.
+- Reserve version tags and GitHub releases for major, stable release milestones.
 
 ## 2. Standardized Release Assets
 Every major stable release must include:
