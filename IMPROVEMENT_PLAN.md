@@ -60,10 +60,10 @@ Design principle: **the couch path must need ≤2 inputs and work from 10 ft wit
 ### 3.1 Layout (top → bottom)
 
 1. **Header status bar** — "Current: Main 150% · TV 100%" + *Last applied … [Revert]* + persistent banner "You may need to sign out for changes to take effect."
-2. **Two big mode buttons (the hero control, ≥48px targets):** `🖥 Desk 125%` and `🛋 Couch 200%` — one click applies, with the revert countdown (C2). Customisable labels bound to two pinned presets.
+2. **Two big mode buttons (the hero control, ≥48px targets):** `Desk 125%` and `Couch 200%` — one click applies, with the revert countdown (C2). Customisable labels bound to two pinned presets.
 3. **Monitor cards** — real `ToggleButton`s: name (EDID) + `3840×2160 native · now 150%`, check-badge *and* colour for selected state, keyboard/arrow navigation, double-click = apply to that monitor alone.
 4. **Presets list** — custom `ListBoxItem` showing `Name (200% · All)` + *Apply / Rename / Delete* on hover/focus; double-click or Enter applies; text box for a custom name in *Save Preset* (defaults to the auto-name); duplicate detection warning.
-5. **Scale picker** — generated from supported percentages, grouped as `Desk (100-150) / Couch (175-300) / Extreme (350-500⚠)`, pre-selected from the *current* scale; slider alternative for quick scrubbing.
+5. **Scale picker** — generated from supported percentages, grouped as `Desk (100-150) / Couch (175-300) / Extreme (350-500)`, pre-selected from the *current* scale; slider alternative for quick scrubbing.
 6. **Settings row** — tray/startup/minimise checkboxes persisted (C4, C6), each with a help tooltip that explains *why*.
 
 ### 3.2 Couch interactions

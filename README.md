@@ -136,19 +136,19 @@ The installer packages the x64 publish output, uses the app icon from `Assets\Qu
 Clone the repository and build the app from source:
 
 ```powershell
-git clone https://github.com/ClinicalSuppression/Quick-Scaler.git
-cd Quick-Scaler
+git clone https://github.com/ClinicalSuppression/quick-scaler.git
+cd quick-scaler
 dotnet restore .\QuickScaler.slnx
 dotnet build .\QuickScaler.slnx -c Release -warnaserror
 ```
 
 ### Windows Installer
 
-Download the latest installer (`QuickScaler_Setup_X.Y.exe`) from the [Releases](https://github.com/ClinicalSuppression/Quick-Scaler/releases) page and run it to install Quick Scaler on your machine.
+Download the latest installer (`QuickScaler_Setup_X.Y.exe`) from the [Releases](https://github.com/ClinicalSuppression/quick-scaler/releases) page and run it to install Quick Scaler on your machine.
 
 ### Portable
 
-Download the latest portable build (if available) from the [Releases](https://github.com/ClinicalSuppression/Quick-Scaler/releases) page and run the executable directly without installation.
+Download the latest portable build (if available) from the [Releases](https://github.com/ClinicalSuppression/quick-scaler/releases) page and run the executable directly without installation.
 
 ## License
 
